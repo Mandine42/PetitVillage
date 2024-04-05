@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- Head= tout ce qui ne s'affiche pas à l'écran -->
+        <title> P'tit Village </title>  
+
+        <!--lien pour connecter la feuille de style-->
+        <link type="text/css" rel="stylesheet" href="ptitvillage.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body> <!-- body=tout ce qui s'affiche à l'écran-->
+        <header class="en-tete"> <!-- header= L'en tête de ma page -->
+            <h1 class="titres"> Bienvenue au P'tit Village </h1>
+            <img class="village-img" src="images/villageHeader.svg" alt="illustration du P'tit Village" />
+        </header>
+
+
+        <main> <!-- Main= section principale de la page-->
+            <section class="section-etablissement"> <!--pour multiplier une section plusieurs fois touche alt-->
+                <img class="batiment" src="images/villageHotels.svg" alt="illustarion d'un Hôtel du p'tit village">
+                <div class="details-etablissement">
+                    <h2 class="titres-catégorie">Hôtels</h2>
+                    <ul class="liste-etablissements">
+                        <li>
+                          <a class="lien-etablissements" href="#"> Nom de l'établissement</a> 
+                        </li>
+                        <li>
+                            <a class="lien-etablissements" href="#"> nom de l'établissement</a> 
+                        </li>
+                    </ul>
+                </div>
+            </section> <!--pour reproduire une ligne plusieurs fois ex: section*3-->
+            <section class="section-etablissement">
+                <img class="batiment"src="images/villageBoutiques.svg" alt="illustration d'une Boutique du P'tit Village">
+                <div class="details-etablissement">
+                    <h2 class="titres-catégorie">Boutiques</h2>
+                    <ul class="liste-etablissements">
+                        <li>
+                            <a class="lien-etablissements" href="#"> nom de l'etablissement</a>
+                        </li>
+                        <li>
+                            <a class="lien-etablissements" href="#"> nom de l'etablissement</a>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+            <section class="section-etablissement">
+                <img class="batiment" src="images/villageRestaurants.svg" alt="une illustration d'un réstaurant du P'tit Village"/>
+                <div class="details-etablissement">
+                    <h2 class="titres-catégorie">Restaurants</h2>
+                    <ul class="liste-etablissements">
+                        <li>
+                            <a class="lien-etablissements" href="#"> nom de l'établissement</a>
+                        </li>
+                        <li>
+                            <a class="lien-etablissements" href="#"> nom de l'établissement</a>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+        </main>
+
+
+        <footer class="pied-de-page"> <!--Footer= Pied de page-->
+            <p class="phrase-footer"> Fait avec amour par Amandine</p>
+        </footer>
+
+    </body>
+</html>

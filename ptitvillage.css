@@ -1,0 +1,63 @@
+body{
+    background-color: #FAF8DA;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*header*/
+.titres{
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    color: #205D76;
+}
+
+.village-img{
+    width: 650px;
+}
+
+.en-tete{
+    text-align:  center;
+
+}
+/*Main*/
+
+.section-etablissement{
+    display: flex;
+    margin: 50px auto;
+    width: 500px;
+}
+
+.details-etablissement{
+    margin-left: 30px;
+}
+.batiment{
+    width: 200px;
+}
+
+.titres-catégorie{
+    color:#205D76;
+    font-size: 30px;
+}
+
+.liste-etablissements{
+    color: #ffc122;
+    padding-left: 15px;
+}
+
+.lien-etablissements{
+    color: #EA6E2F;
+    font-size: 20px;
+}
+/*Footer*/
+footer{
+    background-color:#EA6E2F; 
+}
+
+.phrase-footer{
+    color: white;
+    font-size: 20px;
+}
+
+.pied-de-page{
+    padding: 5px;
+    text-align: center;
+}
